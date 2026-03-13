@@ -1,4 +1,4 @@
 .env
+servers.local.json
 servers.json
-__pycache__/
-*.pyc
+MCP-IMPLEMENTATION.md

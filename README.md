@@ -24,7 +24,7 @@ cd openclaw-mcp-bridge
 ln -s $(pwd)/src/mcp_bridge.py /usr/local/bin/mcp-bridge
 
 # Configure servers
-cp servers.json ~/.config/mcp-bridge/servers.json
+cp servers.example.json ~/.config/mcp-bridge/servers.json
 # Edit to add your MCP servers
 
 # Use

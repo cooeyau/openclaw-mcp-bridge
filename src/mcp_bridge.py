@@ -35,7 +35,7 @@ READ_TIMEOUT = timedelta(seconds=30)
 CONFIG_PATHS = [
     Path(os.environ.get("MCP_BRIDGE_CONFIG", "")),
     Path.home() / ".config" / "mcp-bridge" / "servers.json",
-    Path("/root/projects/openclaw-mcp-bridge/servers.json"),
+    Path("servers.json"),  # current directory fallback
 ]
 
 DEFAULT_TIMEOUT = 30  # seconds
