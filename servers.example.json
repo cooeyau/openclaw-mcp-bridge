@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "jdocmunch": {
+      "description": "Document section retrieval via heading hierarchy",
+      "command": "jdocmunch-mcp",
+      "args": [],
+      "env": {}
+    }
+  }
+}

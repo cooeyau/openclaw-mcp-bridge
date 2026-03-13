@@ -1,4 +1,8 @@
 .env
-servers.local.json
+.env.example
 servers.json
+servers.local.json
 MCP-IMPLEMENTATION.md
+src/mcp_mongodb.py
+__pycache__/
+*.pyc
