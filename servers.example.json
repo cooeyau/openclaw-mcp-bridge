@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "example": {
+      "description": "Example MCP server configuration",
+      "command": "npx",
+      "args": ["-y", "your-mcp-server@latest"],
+      "env": {}
+    }
+  }
+}
